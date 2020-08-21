@@ -14,14 +14,11 @@ body {
 
 header {
   height: 100px;
-  padding: 0 0 0 10px;
 }
 
-header nav {
-  font-family: "Poppins";
-  font-size: 40px;
-  color: white;
-  font-weight: 700;
+.header-logo-img {
+  width: 200px;
+  height: 200px;
 }
 
 main {
