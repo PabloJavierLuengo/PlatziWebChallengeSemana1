@@ -73,10 +73,12 @@ padding: 40px 0 40px 0;
 footer {
   display: flex;
   justify-content: flex-end;
+  margin: 0 70px 0 0;
+  padding: 0 70px 0 0;
 }
 
 .logo-facebook {
-
+margin: 0 5px 0 5px;
 }
 
 .logo-facebook a img {
@@ -85,7 +87,7 @@ footer {
 }
 
 .logo-twitter {
-  
+  margin: 0 5px 0 5px;
 }
 
 .logo-twitter a img {
@@ -94,7 +96,7 @@ footer {
 }
 
 .logo-instagram {
-  
+  margin: 0 5px 0 5px;
 }
 
 .logo-instagram a img {
