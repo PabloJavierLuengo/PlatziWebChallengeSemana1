@@ -1,9 +1,6 @@
-* {
-  font-family: "Open Sans", sans-serif;
-/*   color: hsl(257,40%, 49%); */
-}
-
 body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
   padding: 10px 20px 10px 20px;
   margin: 40px 20px 50px 60px;
   width: 100%;
@@ -21,9 +18,10 @@ header {
 }
 
 header nav {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins";
   font-size: 40px;
   color: white;
+  font-weight: 700;
 }
 
 main {
@@ -38,8 +36,22 @@ padding: 40px 0 40px 0;
 
 .main-right {
 /*   border: 1px solid white; */
-  margin: 35px 30px 35px 30px;
-  padding: 35px 20px 0px 20px;
+  margin: 30px 30px 30px 30px;
+  padding: 25px 20px 0px 20px;
+}
+
+.main-right-title {
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.main-right-text-content {
+  font-weight: normal;
+  max-width: 540px;
+/*   border: 1px solid wheat; */
+  
 }
 
 .main-right-button button {
@@ -52,4 +64,40 @@ padding: 40px 0 40px 0;
   background-color: white;
   box-shadow: 5px 2px 10px #222121;
   color: hsl(257, 40%, 49%);
+}
+
+.main-right-button button a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-facebook {
+
+}
+
+.logo-facebook a img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-twitter {
+  
+}
+
+.logo-twitter a img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-instagram {
+  
+}
+
+.logo-instagram a img {
+  width: 40px;
+  height: 40px;
 }
